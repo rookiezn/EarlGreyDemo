@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		652496FA25763DCC00636F64 /* AppFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 652496F025763DB600636F64 /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		652497012576459E00636F64 /* libTestLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 652496F225763DB600636F64 /* libTestLib.a */; };
+		65FC04C225763AD3002F9522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC04C125763AD3002F9522 /* AppDelegate.m */; };
+		65FC04C825763AD3002F9522 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC04C725763AD3002F9522 /* ViewController.m */; };
+		65FC04CD25763AD5002F9522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FC04CC25763AD5002F9522 /* Assets.xcassets */; };
+		65FC04D025763AD5002F9522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FC04CE25763AD5002F9522 /* LaunchScreen.storyboard */; };
+		65FC04D325763AD5002F9522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC04D225763AD5002F9522 /* main.m */; };
+		65FC04E325763C19002F9522 /* EarlGreyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC04E225763C19002F9522 /* EarlGreyDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		652496EB25763DB600636F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FC04EC25763C51002F9522 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD62395120F56A9700049E81;
+			remoteInfo = CommonLib;
+		};
+		652496ED25763DB600636F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FC04EC25763C51002F9522 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FDF9E03520F82D090005DCF2;
+			remoteInfo = UILib;
+		};
+		652496EF25763DB600636F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FC04EC25763C51002F9522 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD623A4920F957BE00049E81;
+			remoteInfo = AppFramework;
+		};
+		652496F125763DB600636F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FC04EC25763C51002F9522 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD5048F820FB225100261CBE;
+			remoteInfo = TestLib;
+		};
+		652496F525763DC200636F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FC04EC25763C51002F9522 /* EarlGrey.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FD623A4820F957BE00049E81;
+			remoteInfo = AppFramework;
+		};
+		652496F725763DC200636F64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FC04EC25763C51002F9522 /* EarlGrey.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FD5048F720FB225100261CBE;
+			remoteInfo = TestLib;
+		};
+		65FC04E525763C19002F9522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FC04B525763AD3002F9522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FC04BC25763AD3002F9522;
+			remoteInfo = EarlGreyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		652496C825763D2300636F64 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TARGET_BUILD_DIR)/../../EarlGreyDemo.app/Frameworks";
+			dstSubfolderSpec = 0;
+			files = (
+				652496FA25763DCC00636F64 /* AppFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		65FC04BD25763AD3002F9522 /* EarlGreyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGreyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FC04C025763AD3002F9522 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65FC04C125763AD3002F9522 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65FC04C625763AD3002F9522 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65FC04C725763AD3002F9522 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65FC04CC25763AD5002F9522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65FC04CF25763AD5002F9522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65FC04D125763AD5002F9522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FC04D225763AD5002F9522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65FC04E025763C19002F9522 /* EarlGreyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGreyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FC04E225763C19002F9522 /* EarlGreyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarlGreyDemoUITests.m; sourceTree = "<group>"; };
+		65FC04E425763C19002F9522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FC04EC25763C51002F9522 /* EarlGrey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EarlGrey.xcodeproj; path = "EarlGreyDemo/EarlGrey-2.2.0/EarlGrey.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65FC04BA25763AD3002F9522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FC04DD25763C19002F9522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				652497012576459E00636F64 /* libTestLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		652496E525763DB600636F64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				652496EC25763DB600636F64 /* libCommonLib.a */,
+				652496EE25763DB600636F64 /* libUILib.a */,
+				652496F025763DB600636F64 /* AppFramework.framework */,
+				652496F225763DB600636F64 /* libTestLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65FC04B425763AD3002F9522 = {
+			isa = PBXGroup;
+			children = (
+				65FC04EC25763C51002F9522 /* EarlGrey.xcodeproj */,
+				65FC04BF25763AD3002F9522 /* EarlGreyDemo */,
+				65FC04E125763C19002F9522 /* EarlGreyDemoUITests */,
+				65FC04BE25763AD3002F9522 /* Products */,
+				65FC050F25763C82002F9522 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65FC04BE25763AD3002F9522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65FC04BD25763AD3002F9522 /* EarlGreyDemo.app */,
+				65FC04E025763C19002F9522 /* EarlGreyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65FC04BF25763AD3002F9522 /* EarlGreyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				65FC04C025763AD3002F9522 /* AppDelegate.h */,
+				65FC04C125763AD3002F9522 /* AppDelegate.m */,
+				65FC04C625763AD3002F9522 /* ViewController.h */,
+				65FC04C725763AD3002F9522 /* ViewController.m */,
+				65FC04CC25763AD5002F9522 /* Assets.xcassets */,
+				65FC04CE25763AD5002F9522 /* LaunchScreen.storyboard */,
+				65FC04D125763AD5002F9522 /* Info.plist */,
+				65FC04D225763AD5002F9522 /* main.m */,
+			);
+			path = EarlGreyDemo;
+			sourceTree = "<group>";
+		};
+		65FC04E125763C19002F9522 /* EarlGreyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65FC04E225763C19002F9522 /* EarlGreyDemoUITests.m */,
+				65FC04E425763C19002F9522 /* Info.plist */,
+			);
+			path = EarlGreyDemoUITests;
+			sourceTree = "<group>";
+		};
+		65FC050F25763C82002F9522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65FC04BC25763AD3002F9522 /* EarlGreyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FC04D625763AD5002F9522 /* Build configuration list for PBXNativeTarget "EarlGreyDemo" */;
+			buildPhases = (
+				65FC04B925763AD3002F9522 /* Sources */,
+				65FC04BA25763AD3002F9522 /* Frameworks */,
+				65FC04BB25763AD3002F9522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarlGreyDemo;
+			productName = EarlGreyDemo;
+			productReference = 65FC04BD25763AD3002F9522 /* EarlGreyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65FC04DF25763C19002F9522 /* EarlGreyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FC04E725763C19002F9522 /* Build configuration list for PBXNativeTarget "EarlGreyDemoUITests" */;
+			buildPhases = (
+				65FC04DC25763C19002F9522 /* Sources */,
+				65FC04DD25763C19002F9522 /* Frameworks */,
+				65FC04DE25763C19002F9522 /* Resources */,
+				652496C825763D2300636F64 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				652496F625763DC200636F64 /* PBXTargetDependency */,
+				652496F825763DC200636F64 /* PBXTargetDependency */,
+				65FC04E625763C19002F9522 /* PBXTargetDependency */,
+			);
+			name = EarlGreyDemoUITests;
+			productName = EarlGreyDemoUITests;
+			productReference = 65FC04E025763C19002F9522 /* EarlGreyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65FC04B525763AD3002F9522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					65FC04BC25763AD3002F9522 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					65FC04DF25763C19002F9522 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 65FC04BC25763AD3002F9522;
+					};
+				};
+			};
+			buildConfigurationList = 65FC04B825763AD3002F9522 /* Build configuration list for PBXProject "EarlGreyDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65FC04B425763AD3002F9522;
+			productRefGroup = 65FC04BE25763AD3002F9522 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 652496E525763DB600636F64 /* Products */;
+					ProjectRef = 65FC04EC25763C51002F9522 /* EarlGrey.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				65FC04BC25763AD3002F9522 /* EarlGreyDemo */,
+				65FC04DF25763C19002F9522 /* EarlGreyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		652496EC25763DB600636F64 /* libCommonLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCommonLib.a;
+			remoteRef = 652496EB25763DB600636F64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		652496EE25763DB600636F64 /* libUILib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUILib.a;
+			remoteRef = 652496ED25763DB600636F64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		652496F025763DB600636F64 /* AppFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AppFramework.framework;
+			remoteRef = 652496EF25763DB600636F64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		652496F225763DB600636F64 /* libTestLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTestLib.a;
+			remoteRef = 652496F125763DB600636F64 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65FC04BB25763AD3002F9522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FC04D025763AD5002F9522 /* LaunchScreen.storyboard in Resources */,
+				65FC04CD25763AD5002F9522 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FC04DE25763C19002F9522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65FC04B925763AD3002F9522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FC04C825763AD3002F9522 /* ViewController.m in Sources */,
+				65FC04C225763AD3002F9522 /* AppDelegate.m in Sources */,
+				65FC04D325763AD5002F9522 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FC04DC25763C19002F9522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FC04E325763C19002F9522 /* EarlGreyDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		652496F625763DC200636F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppFramework;
+			targetProxy = 652496F525763DC200636F64 /* PBXContainerItemProxy */;
+		};
+		652496F825763DC200636F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TestLib;
+			targetProxy = 652496F725763DC200636F64 /* PBXContainerItemProxy */;
+		};
+		65FC04E625763C19002F9522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FC04BC25763AD3002F9522 /* EarlGreyDemo */;
+			targetProxy = 65FC04E525763C19002F9522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65FC04CE25763AD5002F9522 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FC04CF25763AD5002F9522 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65FC04D425763AD5002F9522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65FC04D525763AD5002F9522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65FC04D725763AD5002F9522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 849TCVN2TJ;
+				INFOPLIST_FILE = EarlGreyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.earlgrey.EarlGreyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65FC04D825763AD5002F9522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 849TCVN2TJ;
+				INFOPLIST_FILE = EarlGreyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.earlgrey.EarlGreyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65FC04E825763C19002F9522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 849TCVN2TJ;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				INFOPLIST_FILE = EarlGreyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.earlgrey.EarlGreyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EarlGreyDemo;
+			};
+			name = Debug;
+		};
+		65FC04E925763C19002F9522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 849TCVN2TJ;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+				INFOPLIST_FILE = EarlGreyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.earlgrey.EarlGreyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EarlGreyDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65FC04B825763AD3002F9522 /* Build configuration list for PBXProject "EarlGreyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC04D425763AD5002F9522 /* Debug */,
+				65FC04D525763AD5002F9522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FC04D625763AD5002F9522 /* Build configuration list for PBXNativeTarget "EarlGreyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC04D725763AD5002F9522 /* Debug */,
+				65FC04D825763AD5002F9522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FC04E725763C19002F9522 /* Build configuration list for PBXNativeTarget "EarlGreyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC04E825763C19002F9522 /* Debug */,
+				65FC04E925763C19002F9522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65FC04B525763AD3002F9522 /* Project object */;
+}
